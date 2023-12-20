@@ -12,8 +12,7 @@ branch_name="update-nginx-$new_version"
 terraform_dir="terraform"
 
 # Clone the repository
-git clone https://github.com/sm211116/nginx-deployment.git
-cd nginx-deployment
+git clone https://github.com/AsimAli325/assessment-turo-nginx-deployment.git
 
 # Create a new branch
 git checkout -b $branch_name
