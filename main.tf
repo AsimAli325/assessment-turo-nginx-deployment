@@ -33,7 +33,7 @@ resource "kubernetes_deployment" "nginx" {
 
       spec {
         container {
-          image = "sumit05/nginx:${var.app_version}"
+          image = "Asim/nginx:${var.app_version}"
           name  = "nginx"
         }
       }
